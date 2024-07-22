@@ -10,6 +10,3 @@ async def root():
 async def hy1():
     return {"message" : "Hello"}
 
-@app.get("//")
-async def root():
-     return {"message": "python"}
